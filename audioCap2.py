@@ -127,6 +127,8 @@ while True:
 
     if touch1.value:
         play_file(audiofiles[0])
+        pixels.fill((255,0,200))
+        pixels.show()
     if touch3.value:
         play_file(audiofiles[0])
     if touch4.value:
